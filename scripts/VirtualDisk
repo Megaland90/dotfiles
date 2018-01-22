@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "Create new VirtalDisk "$1", size = "$2" Mo"
+echo""
+dd if=/dev/zero of=$1 bs=1M count=$2
+echo""
+echo""
+echo "Format " . $1 . "to ext4..."
+mkfs.ext4 $1
+echo "All is done !"
