@@ -90,7 +90,7 @@ export ANDROID_HOME=/home/mottet/Android/Sdk
 # Example aliases
 alias zshconfig="emacs -nw ~/.zshrc"
 alias ne='emacs -nw'
-alias make='make -j4'
+alias make='make -j'
 alias mk='make'
 alias mkr='make re'
 
